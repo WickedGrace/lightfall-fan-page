@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
 .header {
     background-image: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, 0) 100%), url(./img/the-witness.webp);
     background-position: 25% 50%;
@@ -23,6 +29,11 @@ html,
     flex: 1 1 auto;
 }
 
-.text {
+.subtitle {
     max-width: 500px;
+}
+
+.desc {
+    font-family: 'Blinker', sans-serif;
+    letter-spacing: .5px;
 }
